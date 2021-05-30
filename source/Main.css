@@ -1,0 +1,49 @@
+header{
+	height: 100px;
+	background-color: olive;
+	text-align: center;
+}
+
+header > div{
+	display: inline-block;
+}
+
+#logo{
+	height: 100px;
+	width: 20%;
+	text-align: left;
+	background-color: linen;
+}
+
+#nav{
+	background-color: black;
+	text-align: center;
+}
+
+#nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li{
+	list-style-type: none;
+	padding: 25px;
+	display: inline-block;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#nav ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+#login{
+	height: 100px;
+	width: 20%;
+	text-align: right;
+	background-color: linen;
+}
