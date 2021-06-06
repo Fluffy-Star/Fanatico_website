@@ -1,49 +1,107 @@
+body{
+	background-color: rgb(217, 204, 186);
+	margin: 0 auto;
+}
 header{
 	height: 100px;
-	background-color: olive;
+	width: 100%;
 	text-align: center;
+	background-color: black;
+	margin-bottom: 100px;
 }
 
-header > div{
+header div{
 	display: inline-block;
 }
 
-#logo{
+.logo{
+	float: left;
 	height: 100px;
-	width: 20%;
+	width: 15%;
 	text-align: left;
-	background-color: linen;
 }
 
-#nav{
-	background-color: black;
+.nav{
+	height: 100px;
 	text-align: center;
 }
 
-#nav ul{
-	margin: 0;
+.nav ul{
+	top: 50%;
+	bottom: 50%
+	margin: 0 auto;
 	padding: 0;
 }
 
-#nav ul li{
+.nav ul li{
 	list-style-type: none;
 	padding: 25px;
 	display: inline-block;
 }
 
-#nav ul li a{
+.nav ul li a{
 	text-decoration: none;
 	color: white;
 }
 
-#nav ul li a:hover{
+.nav ul li a:hover{
 	color: black;
 	background-color: white;
 }
 
-#login{
+.login{
 	height: 100px;
-	width: 20%;
+	width: 15%;
+	float: right;
 	text-align: right;
-	background-color: linen;
+}
+
+.login ul{
+	top: 50%;
+	bottom: 50%
+	margin: 0;
+	padding: 0;
+}
+
+.login ul li{
+	list-style-type: none;
+	padding: 25px;
+	display: inline-block;
+}
+
+.login ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.login ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+main{
+	height: 800px;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	border-style: inset;
+}
+
+main div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.slider{
+	margin-top: 50px;
+}
+
+.intro{
+	width: 300px;
+	height: 250px;
+	padding-top: 50px;
+	padding-left: 30px;
+	background-color: white;
+	text-align: left;
+	margin-right: 80px;			
 }
