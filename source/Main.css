@@ -1,5 +1,6 @@
 body{
 	background-color: rgb(217, 204, 186);
+	font-family: 조선일보명조;
 	margin: 0 auto;
 }
 header{
@@ -37,6 +38,7 @@ header div{
 	list-style-type: none;
 	padding: 25px;
 	display: inline-block;
+	font-size: 23px;
 }
 
 .nav ul li a{
@@ -67,6 +69,7 @@ header div{
 	list-style-type: none;
 	padding: 25px;
 	display: inline-block;
+	font-size: 20px;
 }
 
 .login ul li a{
@@ -85,6 +88,7 @@ main{
 	text-align: center;
 	margin: 0 auto;
 	border-style: inset;
+	margin-bottom: 100px;
 }
 
 main div{
@@ -97,11 +101,41 @@ main div{
 }
 
 .intro{
-	width: 300px;
+	width: 350px;
 	height: 250px;
 	padding-top: 50px;
 	padding-left: 30px;
 	background-color: white;
 	text-align: left;
-	margin-right: 80px;			
+	margin-right: 80px;
+	font-size: 20px;
+}
+
+footer{
+	height: 200px;
+	background-color: white;
+	text-align: center;
+}
+
+footer div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.corporate_num{
+	padding-top: 50px;
+	height: 200px;
+	width: 300px;
+}
+
+.account_num{
+	padding-top: 50px;
+	height: 200px;
+	width: 300px;
+}
+
+.insta_link{
+	padding-top: 40px;
+	height: 200px;
+	width: 300px;
 }
