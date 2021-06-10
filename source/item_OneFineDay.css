@@ -83,11 +83,11 @@ header div{
 }
 
 main{
-	height: 1000px;
+	height: 550px;
 	width: 80%;
 	text-align: center;
 	margin: 0 auto;
-	background-color: white;
+	border-style: inset;
 	margin-bottom: 100px;
 }
 
@@ -95,12 +95,6 @@ main div{
 	display: inline-block;
 	vertical-align: middle;
 }
-
-.list_logo{
-	height: 130px;
-	width: 100%;
-}
-
 
 footer{
 	height: 150px;
