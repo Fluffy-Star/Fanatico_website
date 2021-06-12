@@ -29,116 +29,93 @@
 		</div>
 	</header>
 	<main>
-		<!--왼쪽 여백-->
-		<div class="left_space">
-			
-		</div>
-		<!--가운데 흰 부분-->
-		<div class="middle_space">
-			<div class="list_logo">
-				<div class="list_logo_name">
-					
+		<div class="item_page_head">
+			<div class="item_image">
+				<img src="../image/OneFineDay.png" width="400px" height="400px">
+			</div>
+			<div class="item_info">
+				<div class="item_name">
+					<p>One Fine Day 디퓨저 100ml</p>
 				</div>
-				<div class="list_logo_sub">
-					
+				<div class="item_price">
+					<div class="discount">
+						<p>33%</p>
+					</div>
+					<div class="cost">
+						<div class="origin_price">
+							<p>25,230원</p>
+						</div>
+						<div class="dis_price">
+							<p>16,900원</p>
+						</div>
+					</div>
+				</div>
+				<div class="delivery">
+					<div class="normal_price">
+						<p class="delivery_text">택배배송</p>
+						<p class="normal_price_text">2,500원</p>
+						<p class="normal_price_sub">(주문시 결제)</p>
+						<p class="other_price_text">추가비용: 제주도 3,000원, 도서산간: 5,000원</p>
+					</div>
+				</div>
+				<p class="option_category_text">필수옵션 선택</p>
+				<div class="options_essential">
+					<select class="scent_option" name="scent_option">
+						<option value="">향 선택</option>
+					    <option value="scent1">1.일랑일랑</option>
+					    <option value="scent2">2.가든파티</option>
+					    <option value="scent3">3.헤스페리데스</option>
+					    <option value="scent4">4.블랙체리</option>
+					</select>
+					<select class="flower_option" name="flower_option">
+						<option value="">안개꽃 색상</option>
+					    <option value="flower_color1">옐로우</option>
+					    <option value="flower_color2">화이트</option>
+					    <option value="flower_color3">핑크</option>
+					    <option value="flower_color4">퍼플</option>
+					</select>
+					<select class="stick_option" name="stick_option">
+						<option value="">섬유스틱 색상</option>
+					    <option value="stick_color1">검은색</option>
+					    <option value="stick_color2">흰색</option>
+					</select>
+				</div>
+				<p class="option_category_text">추가옵션 선택</p>
+				<div class="options_additional">
+					<select class="review_event" name="review_event">
+						<option value="">리뷰 이벤트</option>
+					    <option value="review_option1">참여할게요</option>
+					    <option value="review_option2">참여 안할래요</option>
+					</select>
+					<select class="rattan_option" name="rattan_option">
+						<option value="">라탄 코스터</option>
+					    <option value="rattan_option1">구매하기(3000원)</option>
+					</select>
+					<select class="refill_scent" name="refill_scent">
+						<option value="">추가 리필액</option>
+					    <option value="additional_scent1">1.일랑일랑</option>
+					    <option value="additional_scent2">2.가든파티</option>
+					    <option value="additional_scent3">3.헤스페리데스</option>
+					    <option value="additional_scent4">4.블랙체리</option>
+					</select>
+					<select class="additional_stick" name="additional_stick">
+						<option value="">추가 섬유스틱</option>
+					    <option value="additional_stick_color1">검은색</option>
+					    <option value="additional_stick_color2">흰색</option>
+					</select>
+				</div>
+				<div class="total_price">
+					<p class="total_price_text">총 상품 금액</p>
+					<div class="total_price_right">
+						<p class="total_num">총 수량 0개</p>
+						<p class="total_price_value">0원</p>
+					</div>
+				</div>
+				<div class="buy_buttons">
+					<input class="button1" type="submit" value="장바구니 담기">
+					<input class="button2" type="submit" value="바로 구매하기">
 				</div>
 			</div>
-			<div class="item_page_head">
-				<div class="item_image">
-					
-				</div>
-				<div class="item_info">
-					<div id="item_name">
-						<p>One Fine Day 디퓨저 100ml</p>
-					</div>
-					<div class="item_price">
-						<div id="discount">
-							
-						</div>
-						<div id="origin_price">
-							
-						</div>
-						<div id="dis_price">
-							
-						</div>
-					</div>
-					<div class="delivery">
-						<div class="normal_price">
-							<p id="delivery_text">택배배송</p>
-							<p id="normal_price_text">2,500원</p>
-							<p id="normal_price_sub">(주문시 결제)</p>
-						</div>
-						<div class="other_price">
-							<p id="other_price_text">추가비용: 제주도 3,000원, 도서산간: 5,000원</p>
-						</div>
-					</div>
-					<p id="option_category_text">필수옵션 선택</p>
-					<div class="options_essential">
-						<select name="scent_option">
-							<option value="">향 선택</option>
-						    <option value="scent1">1.일랑일랑</option>
-						    <option value="scent2">2.가든파티</option>
-						    <option value="scent3">3.헤스페리데스</option>
-						    <option value="scent4">4.블랙체리</option>
-						</select>
-						<select name="flower_option">
-							<option value="">안개꽃 색상</option>
-						    <option value="flower_color1">옐로우</option>
-						    <option value="flower_color2">화이트</option>
-						    <option value="flower_color3">핑크</option>
-						    <option value="flower_color4">퍼플</option>
-						</select>
-						<select name="stick_option">
-							<option value="">섬유스틱 색상</option>
-						    <option value="stick_color1">검은색</option>
-						    <option value="stick_color2">흰색</option>
-						</select>
-					</div>
-					<p id="option_category_text">추가옵션 선택</p>
-					<div class="options_additional">
-						<select name="review_event">
-							<option value="">리뷰 이벤트</option>
-						    <option value="review_option1">참여할게요</option>
-						    <option value="review_option2">참여 안할래요</option>
-						</select>
-						<select name="rattan_option">
-							<option value="">라탄 코스터</option>
-						    <option value="rattan_option1">구매하기(3000원)</option>
-						</select>
-						<select name="refill_scent">
-							<option value="">추가 리필액</option>
-						    <option value="additional_scent1">1.일랑일랑</option>
-						    <option value="additional_scent2">2.가든파티</option>
-						    <option value="additional_scent3">3.헤스페리데스</option>
-						    <option value="additional_scent4">4.블랙체리</option>
-						</select>
-						<select name="additional_stick">
-							<option value="">추가 섬유스틱</option>
-						    <option value="additional_stick_color1">검은색</option>
-						    <option value="additional_stick_color2">흰색</option>
-						</select>
-					</div>
-					<div class="total_price">
-						<p id="total_price_text">총 상품 금액</p>
-						<p id="total_num">총 수량 0개</p>
-						<p>｜</p>
-						<p id="total_price_value">0원</p>
-					</div>
-					<div class="buy_buttons">
-						<div class="cart_button">
-							<img src="" alt="쇼핑카트 이미지">
-							<input type="button" value="장바구니 담기">
-						</div>
-						<div class="buy_now_button">
-							<input type="button" value="바로 구매하기">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--오른쪽 여백-->
-		<div class="right_space">
-			
 		</div>
 	</main>
 	<footer>
@@ -155,7 +132,6 @@
 				<h3 class="info_name">Instagram</h3>
 				<a href="https://www.instagram.com/fanatico.official/"><img src="../image/인스타배경제거.png" style="width: 40px; height: 40px"></a>
 			</div>
-		</div>
 	</footer>
 </body>
 </html>

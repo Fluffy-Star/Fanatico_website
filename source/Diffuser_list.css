@@ -55,7 +55,6 @@ header div{
 	height: 100px;
 	width: 15%;
 	float: right;
-	text-align: right;
 }
 
 .login ul{
@@ -101,6 +100,118 @@ main div{
 	width: 100%;
 }
 
+.list_menu{
+	margin-top: 5%;
+	height: 80px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.list_menu div{
+	display: inline-block;
+}
+
+.list_category{
+	margin-left: 15%;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.list_filter{
+	margin-right: 15%;
+	float: right;
+}
+
+.list_filter ul{
+}
+
+.list_filter ul li{
+	display: inline-block;
+}
+
+.list_filter ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.list_filter ul p{
+	display: inline-block;
+}
+
+.list_item{
+	margin-top: 50px;
+	height: 600px;
+	width: 100%;
+	display: inline-block;
+	font-family: initial;
+	letter-spacing: -1px;
+}
+
+.item1{
+	margin-left: 15%;
+	margin-right: 50px;
+	width: 300px;
+	float: left;
+}
+
+.item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+.OneFineDay_line1{
+	font-weight: bold;
+	width: 300px;
+}
+
+.OneFineDay_name{
+	float: left;
+}
+
+.OneFineDay_cost{
+	font-size: 20px;
+	float: right;
+}
+
+.OneFineDay_line2{
+	font-size: 12px;
+	text-align: left;
+	width: 300px;
+	color: gray;
+}
+
+.item2{
+	width: 300px;
+	float: left;
+}
+
+.item2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.ModernGrass_line1{
+	font-weight: bold;
+	width: 300px;
+}
+
+.ModernGrass_name{
+	float: left;
+}
+
+.ModernGrass_cost{
+	font-size: 20px;
+	float: right;
+}
+
+.ModernGrass_line2{
+	font-size: 12px;
+	text-align: left;
+	width: 300px;
+	color: gray;
+}
 
 footer{
 	height: 150px;
